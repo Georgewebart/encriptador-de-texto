@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es-mx"> 
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto by JGS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="logo-camaleon" src="img/Designer.jpeg" alt="logo de programaleon">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="areaDeTexto"; rows="12"; cols="50"; maxlength="350"; minlength="10"; placeholder="Ingresa el texto a encriptar o desencriptar"></textarea>
+            <div>
+                <h5 class="reglas-del-texto"> *Solo letras minúsculas y sin acentos</h5>
+            </div>
+            <div class="botones">
+                <button class="boton-encriptar" onclick="botonEncriptar()"> encriptar</button>
+                <button class="boton-desencriptar" onclick="botonDesencriptar()">desencriptar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea readonly class="texto-modificado"; rows="12"; cols="50";></textarea>
+            <div>
+                <button class="copiar" onclick="copiarAlPortapapeles()">copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="hecho-por">
+        <p>Generado por programaleon</p>
+    </footer>
+
+<script src="app.js"></script>
+    
+</body>
+</html>

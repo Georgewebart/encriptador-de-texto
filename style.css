@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+*{
+    background: #8cd8ff;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    padding: 0%;
+    margin: 1%;
+}
+
+.logo-camaleon{
+    padding-top: 40px;
+    margin-left: 40px;
+    width: 8%;
+    border-radius: 80%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    padding: 20px;
+}
+
+main{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    margin-left: 3%
+}
+
+.areaDeTexto{
+    display: flex;
+    font-size: 150%;
+    border-color: #ff8cd8;
+    border-width: thick;
+    border-style:ridge;
+    color: #000000;
+    margin-top: 15px;
+    text-transform:lowercase
+    
+    
+}
+
+::placeholder { color: rgb(0, 0, 0); }
+.areaDeTexto:focus{
+    outline:rgb(146, 26, 64);
+}
+
+
+.texto-modificado{
+    display: flex;
+    background-color: #7cd3ff;
+    font-size: 150%;
+    border-style:none;
+    color: #000000;
+    margin-top: 15px;
+    text-transform:lowercase
+}
+
+.texto-modificado:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.boton-encriptar {
+    background: #d8ff8c;
+    border: 3px solid #ff8cd8;
+    font-size: 200%;
+    border-radius: 24px;
+    color: #000000;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 30px;
+    width: 280px;
+}
+
+.boton-desencriptar {
+    background: #d8ff8c;
+    border: 3px solid #ff8cd8;
+    font-size: 200%;
+    border-radius: 24px;
+    color: #000000;
+    cursor:pointer;
+    height: 40px;
+    margin-left: 15px;
+    width: 280px;
+
+}
+
+.copiar {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-display:unset;
+    background: #d8ff8c;
+    border: 3px solid #ff8cd8;
+    font-size: 200%;
+    border-radius: 24px;
+    color: #000000;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 55px;
+    position: absolute;
+    width: 280px;
+}
+
+.reglas-del-texto {
+    color: #000000;
+    font-size: 18px;
+
+}
+
+.hecho-por{
+    font-size: 25px;
+    color: #d8ff8c;
+    background-color: #7cd3ff;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 5vh;
+    width: 100vw;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+}
